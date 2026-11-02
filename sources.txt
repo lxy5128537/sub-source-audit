@@ -197,3 +197,14 @@ https://raw.githubusercontent.com/zhangdunlong/free-v2ray-nodes/main/unique_node
 https://raw.githubusercontent.com/xsmac/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.yaml
 https://raw.githubusercontent.com/xsmac/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.template.yaml
 https://raw.githubusercontent.com/jifeng250/free-nodes/main/clash.yaml
+https://cdn.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.yml
+https://cdn.jsdelivr.net/gh/mahdibland/ShadowsocksAggregator@master/Eternity.yml
+https://cdn.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml
+https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/server.txt
+https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.txt
+https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
+https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml
+https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml
+https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub_merge.txt
+https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt
