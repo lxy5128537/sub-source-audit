@@ -35,6 +35,9 @@ def main() -> int:
     args = ap.parse_args()
 
     os.makedirs(args.outdir, exist_ok=True)
+    # 清掉上一轮的 .txt，避免已不达标的源残留
+    for stale in glob.glob(os.path.join(args.outdir, "*.txt")):
+        os.remove(stale)
     reports = {}
     for path in glob.glob(os.path.join(args.indir, "**", "*.json"), recursive=True):
         try:

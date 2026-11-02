@@ -97,7 +97,7 @@ jobs:
             python3 scripts/audit.py \
               --source-url "$URL" \
               --mihomo ./mihomo \
-              --out "out/$(printf '%03d' $i).json" \
+              --out "out/g${{ matrix.idx }}_$(printf '%03d' $i).json" \
               --limit "$LIMIT" || echo "::warning::audit failed for $URL"
           done < urls.txt
 
@@ -121,7 +121,6 @@ jobs:
         with:
           path: artifacts
           pattern: audit-*
-          merge-multiple: true
 
       - name: 汇总并产出文件
         run: |
