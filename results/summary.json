@@ -1,0 +1,62 @@
+[
+ {
+  "source": "https://raw.githubusercontent.com/meaebi/configs-collector-v2ray/main/sub/protocols/trojan.txt",
+  "sampled": 120,
+  "parsed": 11096,
+  "unique": 11076,
+  "delay_ok": 1,
+  "real_ok": 0,
+  "usable_rate": 0.0,
+  "qualified": false,
+  "error": "",
+  "file": ""
+ },
+ {
+  "source": "https://raw.githubusercontent.com/tahmaseb73/configs-collector-v2ray/main/data/sub/protocols/vmess.txt",
+  "sampled": 120,
+  "parsed": 584,
+  "unique": 577,
+  "delay_ok": 0,
+  "real_ok": 0,
+  "usable_rate": 0.0,
+  "qualified": false,
+  "error": "mihomo failed to start (config rejected?)",
+  "file": ""
+ },
+ {
+  "source": "https://raw.githubusercontent.com/tahmaseb73/configs-collector-v2ray/main/data/sub/all_configs.txt",
+  "sampled": 120,
+  "parsed": 1823,
+  "unique": 1816,
+  "delay_ok": 0,
+  "real_ok": 0,
+  "usable_rate": 0.0,
+  "qualified": false,
+  "error": "mihomo failed to start (config rejected?)",
+  "file": ""
+ },
+ {
+  "source": "https://raw.githubusercontent.com/meaebi/configs-collector-v2ray/main/sub/splitted/mixed_18.txt",
+  "sampled": 120,
+  "parsed": 2881,
+  "unique": 2876,
+  "delay_ok": 0,
+  "real_ok": 0,
+  "usable_rate": 0.0,
+  "qualified": false,
+  "error": "mihomo failed to start (config rejected?)",
+  "file": ""
+ },
+ {
+  "source": "https://raw.githubusercontent.com/meaebi/configs-collector-v2ray/main/sub/splitted/mixed_13.txt",
+  "sampled": 120,
+  "parsed": 2870,
+  "unique": 2865,
+  "delay_ok": 0,
+  "real_ok": 0,
+  "usable_rate": 0.0,
+  "qualified": false,
+  "error": "",
+  "file": ""
+ }
+]
