@@ -259,6 +259,77 @@ def _usable_host(host: str) -> bool:
     return True
 
 
+SS_CIPHERS = {
+    "aes-128-gcm", "aes-192-gcm", "aes-256-gcm", "aes-128-cfb", "aes-192-cfb", "aes-256-cfb",
+    "aes-128-ctr", "aes-192-ctr", "aes-256-ctr", "rc4-md5", "chacha20-ietf", "xchacha20",
+    "chacha20-ietf-poly1305", "xchacha20-ietf-poly1305", "none",
+    "2022-blake3-aes-128-gcm", "2022-blake3-aes-256-gcm", "2022-blake3-chacha20-poly1305",
+}
+VMESS_CIPHERS = {"auto", "none", "zero", "aes-128-gcm", "chacha20-poly1305"}
+
+
+def sanitize(p: dict) -> dict | None:
+    """把节点整理成 mihomo 一定肯接受的形态；缺关键字段的直接丢弃。
+
+    一个非法 proxy 会让 mihomo 拒绝整份配置，所以在解析阶段就把已知的坑堵掉。
+    """
+    t = str(p.get("type") or "").lower()
+    p = dict(p)
+    p.pop("name", None)
+    p["port"] = _int(p.get("port"))
+
+    if t in ("vmess", "vless"):
+        uid = str(p.get("uuid") or "").strip()
+        if len(uid) < 8:
+            return None
+        p["uuid"] = uid
+        if t == "vmess":
+            c = str(p.get("cipher") or "auto").lower()
+            p["cipher"] = c if c in VMESS_CIPHERS else "auto"
+            p["alterId"] = _int(p.get("alterId"))
+    elif t == "trojan":
+        if not str(p.get("password") or "").strip():
+            return None
+        p.pop("cipher", None)
+    elif t == "ss":
+        c = str(p.get("cipher") or "").lower()
+        if c not in SS_CIPHERS or not str(p.get("password") or ""):
+            return None
+        p["cipher"] = c
+    elif t == "ssr":
+        for k in ("cipher", "password", "protocol", "obfs"):
+            if not str(p.get(k) or "").strip():
+                return None
+    elif t == "hysteria":
+        if not str(p.get("password") or "").strip():
+            return None
+        p.setdefault("up", "50 Mbps")
+        p.setdefault("down", "100 Mbps")
+        p.setdefault("protocol", "udp")
+    elif t == "hysteria2":
+        if not str(p.get("password") or "").strip():
+            return None
+        p.pop("cipher", None)
+    elif t == "tuic":
+        if not str(p.get("uuid") or "").strip() or not str(p.get("password") or "").strip():
+            return None
+        p.setdefault("alpn", ["h3"])
+        p.pop("cipher", None)
+    else:
+        return None
+
+    if p.get("network") not in (None, "", "ws", "grpc", "h2", "http", "tcp"):
+        p.pop("network", None)
+    if p.get("flow") in ("", None):
+        p.pop("flow", None)
+    for k in ("servername", "sni", "ws-path", "grpc-service-name"):
+        if p.get(k) in ("", None):
+            p.pop(k, None)
+    if isinstance(p.get("ws-headers"), dict) and not p["ws-headers"]:
+        p.pop("ws-headers")
+    return p
+
+
 def nodes_from_text(text: str) -> list[dict]:
     """从订阅文本里抽出节点（不做跨源去重）。"""
     nodes: list[dict] = []
@@ -291,7 +362,10 @@ def nodes_from_text(text: str) -> list[dict]:
 
 def dedupe(nodes: list[dict]) -> list[dict]:
     seen, out = set(), []
-    for p in nodes:
+    for raw in nodes:
+        p = sanitize(raw)
+        if not p:
+            continue
         host = str(p.get("server") or "")
         port = _int(p.get("port"))
         if not _usable_host(host) or not (0 < port < 65536):
