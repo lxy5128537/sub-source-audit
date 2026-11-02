@@ -1,6 +1,6 @@
 # source: https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml
-# tested_at: 2026-11-02T02:37:32Z
-# sampled: 46  delay_ok: 35  real_ok: 35  usable_rate: 76.1%
+# tested_at: 2026-11-02T02:50:59Z
+# sampled: 46  delay_ok: 36  real_ok: 36  usable_rate: 78.3%
 {"type": "vless", "server": "169.40.42.35", "port": 443, "country": "US", "egress_ip": "185.195.57.173"}
 {"type": "vless", "server": "47.253.226.114", "port": 443, "country": "US", "egress_ip": "47.253.226.114"}
 {"type": "vless", "server": "195.211.98.43", "port": 443, "country": "US", "egress_ip": "2a12:6fc1::2d9"}
@@ -21,7 +21,8 @@
 {"type": "vmess", "server": "rib9jxayoqjgn2kw.v.3dns.vip", "port": 443, "country": "US", "egress_ip": "47.88.79.34"}
 {"type": "trojan", "server": "66.163.122.25", "port": 443, "country": "US", "egress_ip": "66.163.122.46"}
 {"type": "vless", "server": "51.158.206.25", "port": 23576, "country": "NL", "egress_ip": "51.158.206.25"}
-{"type": "trojan", "server": "66.163.122.7", "port": 443, "country": "US", "egress_ip": "66.163.122.26"}
+{"type": "vless", "server": "156.229.161.107", "port": 10001, "country": "US", "egress_ip": "156.229.161.107"}
+{"type": "trojan", "server": "66.163.122.7", "port": 443, "country": "US", "egress_ip": "66.163.122.81"}
 {"type": "hysteria2", "server": "9.247.54.68", "port": 443, "country": "NL", "egress_ip": "9.247.54.68"}
 {"type": "ss", "server": "202.50.253.81", "port": 19999, "country": "IT", "egress_ip": "80.174.118.78"}
 {"type": "ss", "server": "202.50.253.27", "port": 19999, "country": "IT", "egress_ip": "80.174.118.24"}

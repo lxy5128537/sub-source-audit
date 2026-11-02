@@ -1,0 +1,13 @@
+# source: https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml
+# tested_at: 2026-11-02T02:56:14Z
+# sampled: 10  delay_ok: 10  real_ok: 10  usable_rate: 100.0%
+{"type": "ss", "server": "202.50.253.27", "port": 19999, "country": "IT", "egress_ip": "80.174.118.24"}
+{"type": "ss", "server": "202.50.253.36", "port": 19999, "country": "IT", "egress_ip": "80.174.118.33"}
+{"type": "ss", "server": "202.50.253.90", "port": 19999, "country": "IT", "egress_ip": "80.174.118.87"}
+{"type": "ss", "server": "202.50.253.63", "port": 19999, "country": "IT", "egress_ip": "80.174.118.60"}
+{"type": "ss", "server": "202.50.253.18", "port": 19999, "country": "IT", "egress_ip": "80.174.118.15"}
+{"type": "ss", "server": "202.50.253.54", "port": 19999, "country": "IT", "egress_ip": "80.174.118.51"}
+{"type": "ss", "server": "202.50.253.45", "port": 19999, "country": "IT", "egress_ip": "80.174.118.42"}
+{"type": "ss", "server": "202.50.253.99", "port": 19999, "country": "IT", "egress_ip": "80.174.118.96"}
+{"type": "ss", "server": "202.50.253.81", "port": 19999, "country": "IT", "egress_ip": "80.174.118.78"}
+{"type": "ss", "server": "202.50.253.72", "port": 19999, "country": "IT", "egress_ip": "80.174.118.69"}
