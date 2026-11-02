@@ -26,7 +26,7 @@
 
 `Actions → source-audit → Run workflow`，可调三个参数：
 
-- `limit` 每源最多抽多少节点来测（默认 120）
+- `limit` 每源最多抽多少节点来测（默认 300）
 - `threshold` 可用率阈值（默认 0.30）
 - `chunk` 每个矩阵任务处理多少个源（默认 5）
 

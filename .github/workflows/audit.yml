@@ -5,7 +5,7 @@ on:
     inputs:
       limit:
         description: 每个源最多抽多少个节点来测
-        default: "120"
+        default: "300"
       threshold:
         description: 可用率阈值（> 此值才输出文件）
         default: "0.30"
@@ -83,7 +83,7 @@ jobs:
 
       - name: 审计本组订阅源
         env:
-          LIMIT: ${{ github.event.inputs.limit || '120' }}
+          LIMIT: ${{ github.event.inputs.limit || '300' }}
           URLS: ${{ matrix.urls }}
         run: |
           mkdir -p out
