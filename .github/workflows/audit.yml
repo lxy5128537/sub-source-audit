@@ -1,0 +1,152 @@
+name: source-audit
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 每个源最多抽多少个节点来测
+        default: "120"
+      threshold:
+        description: 可用率阈值（> 此值才输出文件）
+        default: "0.30"
+      chunk:
+        description: 每个 matrix 任务处理多少个源
+        default: "5"
+  schedule:
+    - cron: "0 20 * * *"   # 每天 04:00 (北京时间) 跑一次
+  push:
+    paths:
+      - sources.txt
+      - scripts/**
+      - .github/workflows/audit.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: source-audit
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      count: ${{ steps.plan.outputs.count }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        name: 切分源清单
+        run: |
+          python3 - "${{ github.event.inputs.chunk || '5' }}" <<'PY'
+          import json, os, sys
+          chunk = max(1, int(sys.argv[1]))
+          urls = [l.strip() for l in open("sources.txt") if l.strip() and not l.startswith("#")]
+          groups = [urls[i:i + chunk] for i in range(0, len(urls), chunk)]
+          matrix = {"include": [{"idx": i, "urls": json.dumps(g)} for i, g in enumerate(groups)]}
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("matrix=" + json.dumps(matrix) + "\n")
+              f.write(f"count={len(urls)}\n")
+          print("源", len(urls), "组", len(groups))
+          PY
+
+  audit:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 40
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: pip install --quiet pyyaml
+
+      - name: 下载 mihomo
+        run: |
+          TAG=$(curl -sI https://github.com/MetaCubeX/mihomo/releases/latest \
+                | grep -i '^location:' | sed 's|.*/tag/||' | tr -d '\r\n')
+          echo "mihomo tag: $TAG"
+          for NAME in "mihomo-linux-amd64-$TAG" "mihomo-linux-amd64-compatible-$TAG"; do
+            URL="https://github.com/MetaCubeX/mihomo/releases/download/$TAG/$NAME.gz"
+            if curl -fsSL -o mihomo.gz "$URL"; then
+              gunzip -f mihomo.gz && chmod +x mihomo && break
+            fi
+          done
+          ./mihomo -v
+
+      - name: 审计本组订阅源
+        env:
+          LIMIT: ${{ github.event.inputs.limit || '120' }}
+          URLS: ${{ matrix.urls }}
+        run: |
+          mkdir -p out
+          python3 -c 'import json,os;print("\n".join(json.loads(os.environ["URLS"])))' > urls.txt
+          echo "本组源数: $(wc -l < urls.txt)"
+          i=0
+          while read -r URL; do
+            [ -z "$URL" ] && continue
+            i=$((i+1))
+            echo "=== [$i] $URL"
+            python3 scripts/audit.py \
+              --source-url "$URL" \
+              --mihomo ./mihomo \
+              --out "out/$(printf '%03d' $i).json" \
+              --limit "$LIMIT" || echo "::warning::audit failed for $URL"
+          done < urls.txt
+
+      - name: 上传本组结果
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-${{ matrix.idx }}
+          path: out/*.json
+          if-no-files-found: warn
+          retention-days: 7
+
+  aggregate:
+    needs: [plan, audit]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          pattern: audit-*
+          merge-multiple: true
+
+      - name: 汇总并产出文件
+        run: |
+          python3 scripts/aggregate.py \
+            --indir artifacts \
+            --outdir results \
+            --threshold "${{ github.event.inputs.threshold || '0.30' }}"
+
+      - name: 提交结果
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results SUMMARY.md
+          if git diff --cached --quiet; then
+            echo "结果无变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore(results): 更新订阅源审计结果 [skip ci]"
+          git push
+
+      - name: 写入任务摘要
+        if: always()
+        run: |
+          {
+            echo "### 审计汇总"
+            echo
+            sed -n '1,12p' SUMMARY.md 2>/dev/null || echo "SUMMARY.md 未生成"
+          } >> "$GITHUB_STEP_SUMMARY"

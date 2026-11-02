@@ -1,0 +1,9 @@
+results/*.json
+!results/summary.json
+__pycache__/
+*.pyc
+mihomo
+mihomo.gz
+artifacts/
+out/
+urls.txt
