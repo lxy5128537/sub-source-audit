@@ -1,0 +1,39 @@
+# source: https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml
+# tested_at: 2026-11-02T02:29:43Z
+# sampled: 46  delay_ok: 36  real_ok: 36  usable_rate: 78.3%
+{"type": "vless", "server": "169.40.42.35", "port": 443, "country": "US", "egress_ip": "185.195.57.173"}
+{"type": "vless", "server": "47.253.226.114", "port": 443, "country": "US", "egress_ip": "47.253.226.114"}
+{"type": "vless", "server": "195.211.98.43", "port": 443, "country": "US", "egress_ip": "2a12:6fc1::2d9"}
+{"type": "vless", "server": "169.40.42.229", "port": 443, "country": "US", "egress_ip": "162.120.69.84"}
+{"type": "vless", "server": "169.40.42.202", "port": 443, "country": "US", "egress_ip": "45.144.112.54"}
+{"type": "vless", "server": "xray1-direct-mci1-fs-ce.freesocks.work", "port": 443, "country": "US", "egress_ip": "23.191.200.206"}
+{"type": "vless", "server": "xray2-direct-mci1-fs-ce.freesocks.work", "port": 443, "country": "US", "egress_ip": "23.191.200.207"}
+{"type": "vless", "server": "2.24.124.64", "port": 443, "country": "US", "egress_ip": "2a02:4780:75:ab4b::1"}
+{"type": "vless", "server": "15.204.97.206", "port": 23576, "country": "US", "egress_ip": "2604:2dc0:200:26ce::"}
+{"type": "vless", "server": "195.123.235.177", "port": 443, "country": "US", "egress_ip": "2a05:9400::10f9"}
+{"type": "vless", "server": "51.158.206.93", "port": 23576, "country": "NL", "egress_ip": "51.158.206.93"}
+{"type": "vless", "server": "51.158.206.98", "port": 23576, "country": "NL", "egress_ip": "51.158.206.98"}
+{"type": "vless", "server": "51.158.206.103", "port": 23576, "country": "NL", "egress_ip": "51.158.206.103"}
+{"type": "vless", "server": "51.158.206.8", "port": 23576, "country": "NL", "egress_ip": "51.158.206.8"}
+{"type": "vless", "server": "51.158.206.86", "port": 23576, "country": "NL", "egress_ip": "51.158.206.86"}
+{"type": "vless", "server": "51.158.206.96", "port": 23576, "country": "NL", "egress_ip": "51.158.206.96"}
+{"type": "vless", "server": "51.158.206.29", "port": 23576, "country": "NL", "egress_ip": "51.158.206.29"}
+{"type": "vmess", "server": "rib9jxayoqjgn2kw.v.3dns.vip", "port": 443, "country": "US", "egress_ip": "47.88.79.34"}
+{"type": "trojan", "server": "66.163.122.25", "port": 443, "country": "US", "egress_ip": "66.163.122.30"}
+{"type": "vless", "server": "51.158.206.25", "port": 23576, "country": "NL", "egress_ip": "51.158.206.25"}
+{"type": "vless", "server": "156.229.161.107", "port": 10001, "country": "US", "egress_ip": "156.229.161.107"}
+{"type": "trojan", "server": "66.163.122.7", "port": 443, "country": "US", "egress_ip": "66.163.122.113"}
+{"type": "hysteria2", "server": "9.247.54.68", "port": 443, "country": "NL", "egress_ip": "9.247.54.68"}
+{"type": "ss", "server": "202.50.253.81", "port": 19999, "country": "IT", "egress_ip": "80.174.118.78"}
+{"type": "ss", "server": "202.50.253.27", "port": 19999, "country": "IT", "egress_ip": "80.174.118.24"}
+{"type": "ss", "server": "202.50.253.54", "port": 19999, "country": "IT", "egress_ip": "80.174.118.51"}
+{"type": "ss", "server": "82.38.31.180", "port": 8080, "country": "NL", "egress_ip": "193.29.139.147"}
+{"type": "ss", "server": "202.50.253.63", "port": 19999, "country": "IT", "egress_ip": "80.174.118.60"}
+{"type": "ss", "server": "193.29.139.197", "port": 8080, "country": "NL", "egress_ip": "193.29.139.197"}
+{"type": "ss", "server": "82.38.31.205", "port": 8080, "country": "NL", "egress_ip": "193.29.139.171"}
+{"type": "ss", "server": "82.38.31.149", "port": 8080, "country": "NL", "egress_ip": "193.29.139.195"}
+{"type": "ss", "server": "193.29.139.204", "port": 8080, "country": "NL", "egress_ip": "193.29.139.204"}
+{"type": "ss", "server": "51.83.192.80", "port": 8388, "country": "PL", "egress_ip": "51.83.192.80"}
+{"type": "ss", "server": "82.38.31.10", "port": 8080, "country": "NL", "egress_ip": "193.29.139.210"}
+{"type": "ss", "server": "193.29.139.225", "port": 8080, "country": "NL", "egress_ip": "193.29.139.225"}
+{"type": "ss", "server": "193.29.139.235", "port": 8080, "country": "NL", "egress_ip": "193.29.139.235"}

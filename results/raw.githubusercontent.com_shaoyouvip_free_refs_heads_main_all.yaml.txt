@@ -1,0 +1,17 @@
+# source: https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml
+# tested_at: 2026-11-02T02:30:36Z
+# sampled: 26  delay_ok: 16  real_ok: 14  usable_rate: 53.8%
+{"type": "trojan", "server": "ench-snet-app.w-ctrip.cn", "port": 37212, "country": "SG", "egress_ip": "64.118.136.161"}
+{"type": "vless", "server": "minimize-evenness.cdn-content.com", "port": 443, "country": "US", "egress_ip": "23.191.200.205"}
+{"type": "trojan", "server": "ench-snet-app.w-ctrip.cn", "port": 38994, "country": "US", "egress_ip": "64.118.153.32"}
+{"type": "vless", "server": "ee.h1cloud.net", "port": 25895, "country": "EE", "egress_ip": "132.243.67.136"}
+{"type": "vless", "server": "87.242.119.253", "port": 443, "country": "PL", "egress_ip": "2a0e:d600:0:2ea::2"}
+{"type": "trojan", "server": "ench-snet-app.w-ctrip.cn", "port": 26429, "country": "US", "egress_ip": "104.168.24.228"}
+{"type": "hysteria", "server": "5.83.129.90", "port": 54177, "country": "DE", "egress_ip": "5.83.129.90"}
+{"type": "vless", "server": "grimness-backlogs.cdn-content.com", "port": 443, "country": "US", "egress_ip": "23.191.200.204"}
+{"type": "vless", "server": "minimize-evenness.cdn-content.com", "port": 443, "country": "US", "egress_ip": "23.191.200.205"}
+{"type": "hysteria2", "server": "179.253.82.33", "port": 4444, "country": "FI", "egress_ip": "144.31.109.38"}
+{"type": "vless", "server": "cdn.crackerbinam.org", "port": 2083, "country": "US", "egress_ip": "191.101.44.113"}
+{"type": "vless", "server": "ams2.shtil.io", "port": 444, "country": "NL", "egress_ip": "2a03:6f02::1:68c8"}
+{"type": "vless", "server": "72.56.52.248", "port": 443, "country": "LV", "egress_ip": "193.124.254.60"}
+{"type": "vless", "server": "185.229.9.135", "port": 443, "country": "RU", "egress_ip": "188.130.209.217"}
