@@ -1,0 +1,19 @@
+# source: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
+# tested_at: 2026-11-02T13:47:38Z
+# sampled: 41  delay_ok: 17  real_ok: 16  usable_rate: 39.0%
+{"type": "vless", "server": "31.77.13.22", "port": 2063, "country": "CZ", "egress_ip": "178.249.209.172"}
+{"type": "vless", "server": "cz-prg.dontblockmepls.com", "port": 2063, "country": "CZ", "egress_ip": "178.249.209.172"}
+{"type": "vmess", "server": "d2.anonix.cloud", "port": 8018, "country": "DE", "egress_ip": "2.26.99.150"}
+{"type": "hysteria2", "server": "47.129.112.129", "port": 20000, "country": "FR", "egress_ip": "88.209.244.69"}
+{"type": "hysteria2", "server": "47.129.112.129", "port": 20000, "country": "HK", "egress_ip": "194.153.253.152"}
+{"type": "vmess", "server": "47.243.167.44", "port": 443, "country": "HK", "egress_ip": "47.243.167.44"}
+{"type": "ss", "server": "202.50.253.27", "port": 19999, "country": "IT", "egress_ip": "80.174.118.24"}
+{"type": "ss", "server": "202.50.253.54", "port": 19999, "country": "IT", "egress_ip": "80.174.118.51"}
+{"type": "vless", "server": "72.56.52.248", "port": 443, "country": "LV", "egress_ip": "193.124.254.60"}
+{"type": "vless", "server": "162.248.73.197", "port": 443, "country": "NL", "egress_ip": "162.248.73.197"}
+{"type": "trojan", "server": "130.94.50.86", "port": 46298, "country": "PH", "egress_ip": "130.94.50.86"}
+{"type": "trojan", "server": "ph001.zestapp778.com", "port": 46298, "country": "PH", "egress_ip": "130.94.50.86"}
+{"type": "hysteria2", "server": "47.129.112.129", "port": 20000, "country": "TW", "egress_ip": "95.173.55.58"}
+{"type": "vless", "server": "201.51.4.89", "port": 443, "country": "US", "egress_ip": "179.254.92.216"}
+{"type": "vless", "server": "176.122.141.199", "port": 443, "country": "US", "egress_ip": "176.122.141.199"}
+{"type": "vless", "server": "149.33.9.71", "port": 8443, "country": "US", "egress_ip": "149.33.9.71"}
