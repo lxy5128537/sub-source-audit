@@ -1,11 +1,13 @@
 # source: https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml
-# tested_at: 2026-11-02T02:30:36Z
-# sampled: 26  delay_ok: 16  real_ok: 14  usable_rate: 53.8%
-{"type": "trojan", "server": "ench-snet-app.w-ctrip.cn", "port": 37212, "country": "SG", "egress_ip": "64.118.136.161"}
-{"type": "vless", "server": "minimize-evenness.cdn-content.com", "port": 443, "country": "US", "egress_ip": "23.191.200.205"}
+# tested_at: 2026-11-02T02:39:25Z
+# sampled: 26  delay_ok: 17  real_ok: 16  usable_rate: 61.5%
+{"type": "trojan", "server": "ench-snet-app.w-ctrip.cn", "port": 18295, "country": "JP", "egress_ip": "133.18.121.137"}
+{"type": "vless", "server": "cz-prg.dontblockmepls.com", "port": 2063, "country": "CZ", "egress_ip": "178.249.209.187"}
 {"type": "trojan", "server": "ench-snet-app.w-ctrip.cn", "port": 38994, "country": "US", "egress_ip": "64.118.153.32"}
 {"type": "vless", "server": "ee.h1cloud.net", "port": 25895, "country": "EE", "egress_ip": "132.243.67.136"}
 {"type": "vless", "server": "87.242.119.253", "port": 443, "country": "PL", "egress_ip": "2a0e:d600:0:2ea::2"}
+{"type": "trojan", "server": "ench-snet-app.w-ctrip.cn", "port": 38963, "country": "NL", "egress_ip": "2a12:5940:585d::2"}
+{"type": "trojan", "server": "ench-snet-app.w-ctrip.cn", "port": 22003, "country": "TW", "egress_ip": "143.246.48.10"}
 {"type": "trojan", "server": "ench-snet-app.w-ctrip.cn", "port": 26429, "country": "US", "egress_ip": "104.168.24.228"}
 {"type": "hysteria", "server": "5.83.129.90", "port": 54177, "country": "DE", "egress_ip": "5.83.129.90"}
 {"type": "vless", "server": "grimness-backlogs.cdn-content.com", "port": 443, "country": "US", "egress_ip": "23.191.200.204"}

@@ -1,6 +1,6 @@
 # source: https://raw.githubusercontent.com/MohammadBahemmat/V2ray-Collector/main/servers/trojan_servers.txt
-# tested_at: 2026-11-02T02:31:26Z
-# sampled: 99  delay_ok: 51  real_ok: 44  usable_rate: 44.4%
+# tested_at: 2026-11-02T02:38:28Z
+# sampled: 99  delay_ok: 57  real_ok: 49  usable_rate: 49.5%
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@149.28.130.108:443?sni=searchcreativejobsandshowcaseyourartistictalents.com#%F0%9F%87%B8%F0%9F%87%AC%5Bwww.v2nodes.com%5D%20trojan-SG-...%20%231
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.193:443?#%F0%9F%87%BA%F0%9F%87%B8%5Bwww.v2nodes.com%5D%20trojan-US-...%20%2312
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.198:443?security=tls&sni=cdn.browseseniorrolesandenhanceyourcareertoday.com#%E7%91%9E%E5%85%B8+V2CROSS.COM
@@ -35,13 +35,18 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@70.34.252.255:443?sni=browseexecutivej
 trojan://242a3d8eee5e4ed1a6bfa4141d549a25@216.106.186.66:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&amp;security=tls&amp;sni=www.findlocaljobnetworkandbuildcommunityconnections.com&amp;type=tcp&amp;headerType=none#@GozargahAzad|
 trojan://5t6i121em5lkmsmk@in002.zestapp778.com:42733?sni=in002.zestapp778.com#%F0%9F%87%AE%F0%9F%87%B3%5Bwww.v2nodes.com%5D%20trojan-IN-...
 trojan://5t6i121em5lkmsmk@us001.zestapp778.com:57277?allowInsecure=1&sni=us001.zestapp778.com#%F0%9F%87%BA%F0%9F%87%B8%5Bwww.v2nodes.com%5D%20trojan-US-...%20%236
+trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:15589?allowInsecure=1&amp;sni=cm.g.doubleclick.net#
 trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:16932?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%A7%F0%9F%87%B7%20%E5%B7%B4%E8%A5%BF%20%7C%20BRA
 trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:24914?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20%7C%20JPN%20%232
 trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:26429?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%BA%F0%9F%87%B8US_9%7C2.1MB/s
 trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:35929?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%209
-trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:38963?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%B3%F0%9F%87%B1NL_5%7C2.5MB/s
+trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:37212?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP%20%232
 trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:41184?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD%20%7C%20DEU%204
-trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:41495?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%20%7C%20HKG%20%233
+trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:42338?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP
+trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:47966?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20%7C%20SGP%20%233
+trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:54815?allowInsecure=1&sni=cm.g.doubleclick.net#%F0%9F%87%B9%F0%9F%87%BCTW_1%7C3.0MB/s
 trojan://e26a229d-e8f2-4ff9-8c7d-58a9d83ee437@139.180.146.200:8886?#%F0%9F%87%B8%F0%9F%87%AC%5Bwww.v2nodes.com%5D%20trojan-SG-...%20%232
 trojan://e26a229d-e8f2-4ff9-8c7d-58a9d83ee437@45.32.52.173:8886?sni=45.32.52.173#%F0%9F%87%AF%F0%9F%87%B5%5Bwww.v2nodes.com%5D%20trojan-JP-...%20%231
 trojan://f0eb8c92ce8946aaba856569cff1a16b@resources.findlocaljobnetworkandbuildcommunityconnections.com:443?security=tls&amp;sni=resources.findlocaljobnetworkandbuildcommunityconnections.com#
+trojan://va3E77I9fZCnCVcGKkxBCfz5@186.241.105.213:443?allowInsecure=0&sni=vpn.liumr.top#%F0%9F%87%BA%F0%9F%87%B8%5Bwww.v2nodes.com%5D%20trojan-US-...%20%232
+trojan://va3E77I9fZCnCVcGKkxBCfz5@vpn.liumr.top:443?allowInsecure=1&sni=vpn.liumr.top#%F0%9F%87%BA%F0%9F%87%B8US_11%7C1.7MB/s
