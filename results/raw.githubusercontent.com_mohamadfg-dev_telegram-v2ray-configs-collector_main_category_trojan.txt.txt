@@ -1,0 +1,7 @@
+# source: https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/main/category/trojan.txt
+# tested_at: 2026-11-03T02:04:30Z
+# sampled: 11  delay_ok: 4  real_ok: 4  usable_rate: 36.4%
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.29:443?security=tls&sni=learn.yourultimateprofessionalcareerhub.com&type=tcp#🇨🇭 CH | 208.69.78.29
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.67:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.explorecreativejobsandenhanceyourcareerportfolio.com#🇺🇸 US | 170.101.101.67
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.96:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.iloverussia2026.com#🇩🇪 DE | 193.108.119.96
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.169:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discoverfreshgraduatejobsstartyourprofessionaljourney.com#🇺🇸 US | 169.197.140.169
