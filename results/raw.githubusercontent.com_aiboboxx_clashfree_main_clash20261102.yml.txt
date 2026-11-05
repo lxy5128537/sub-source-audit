@@ -1,15 +1,13 @@
 # source: https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash20261102.yml
-# tested_at: 2026-11-05T00:50:33Z
-# sampled: 13  delay_ok: 12  real_ok: 12  usable_rate: 92.3%
+# tested_at: 2026-11-05T11:01:57Z
+# sampled: 13  delay_ok: 11  real_ok: 10  usable_rate: 76.9%
 {"type": "ss", "server": "202.50.253.54", "port": 19999, "country": "IT", "egress_ip": "80.174.118.51"}
 {"type": "vmess", "server": "guanwang.awsno.com", "port": 443, "country": "US", "egress_ip": "192.227.247.27"}
 {"type": "ss", "server": "202.50.253.27", "port": 19999, "country": "IT", "egress_ip": "80.174.118.24"}
 {"type": "ss", "server": "202.50.253.90", "port": 19999, "country": "IT", "egress_ip": "80.174.118.87"}
 {"type": "ss", "server": "202.50.253.45", "port": 19999, "country": "IT", "egress_ip": "80.174.118.42"}
-{"type": "ss", "server": "202.50.253.36", "port": 19999, "country": "IT", "egress_ip": "80.174.118.33"}
 {"type": "ss", "server": "202.50.253.18", "port": 19999, "country": "IT", "egress_ip": "80.174.118.15"}
 {"type": "ss", "server": "202.50.253.63", "port": 19999, "country": "IT", "egress_ip": "80.174.118.60"}
 {"type": "ss", "server": "202.50.253.72", "port": 19999, "country": "IT", "egress_ip": "80.174.118.69"}
 {"type": "ss", "server": "202.50.253.99", "port": 19999, "country": "IT", "egress_ip": "80.174.118.96"}
 {"type": "ss", "server": "202.50.253.81", "port": 19999, "country": "IT", "egress_ip": "80.174.118.78"}
-{"type": "ss", "server": "46.17.46.27", "port": 18443, "country": "RU", "egress_ip": "2a00:b700:1::39"}

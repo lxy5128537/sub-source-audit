@@ -1,28 +1,19 @@
 # source: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
-# tested_at: 2026-11-05T00:50:38Z
-# sampled: 48  delay_ok: 28  real_ok: 25  usable_rate: 52.1%
-{"type": "trojan", "server": "sclass-c1.catcat321.com", "port": 20086, "country": "AE", "egress_ip": "2a06:f902:4001:100::8c0a:59b9"}
-{"type": "trojan", "server": "Sclass-00.catcat321.com", "port": 20123, "country": "AE", "egress_ip": "2a06:f902:4001:100::bf1d:aafe"}
-{"type": "trojan", "server": "Sclass-C1.catcat321.com", "port": 20086, "country": "AE", "egress_ip": "2a06:f902:4001:100::62:d818"}
-{"type": "vmess", "server": "47.244.120.197", "port": 23026, "country": "HK", "egress_ip": "47.244.120.197"}
-{"type": "vmess", "server": "47.244.120.197", "port": 36703, "country": "HK", "egress_ip": "47.244.120.197"}
-{"type": "vmess", "server": "8.217.254.88", "port": 443, "country": "HK", "egress_ip": "8.217.254.88"}
-{"type": "vmess", "server": "47.244.120.197", "port": 44867, "country": "HK", "egress_ip": "47.244.120.197"}
-{"type": "vless", "server": "tunell2027.crackerbinam.org", "port": 48312, "country": "IR", "egress_ip": "185.211.57.168"}
+# tested_at: 2026-11-05T11:02:10Z
+# sampled: 37  delay_ok: 16  real_ok: 16  usable_rate: 43.2%
+{"type": "trojan", "server": "sclass-00.catcat321.com", "port": 20123, "country": "AE", "egress_ip": "2a06:f902:4001:100::54c8:9799"}
+{"type": "vless", "server": "eu-central.862400.xyz", "port": 443, "country": "DE", "egress_ip": "2a01:7e01::2000:beff:fe3b:4b71"}
+{"type": "vless", "server": "147.45.245.17", "port": 443, "country": "EE", "egress_ip": "79.98.37.94"}
+{"type": "vmess", "server": "vipccc.cc", "port": 443, "country": "HK", "egress_ip": "2001:df1:7880:3::cdf"}
 {"type": "ss", "server": "202.50.253.90", "port": 19999, "country": "IT", "egress_ip": "80.174.118.87"}
-{"type": "ss", "server": "202.50.253.36", "port": 19999, "country": "IT", "egress_ip": "80.174.118.33"}
 {"type": "ss", "server": "202.50.253.27", "port": 19999, "country": "IT", "egress_ip": "80.174.118.24"}
-{"type": "ss", "server": "202.50.253.81", "port": 19999, "country": "IT", "egress_ip": "80.174.118.78"}
-{"type": "ss", "server": "202.50.253.72", "port": 19999, "country": "IT", "egress_ip": "80.174.118.69"}
-{"type": "ss", "server": "202.50.253.18", "port": 19999, "country": "IT", "egress_ip": "80.174.118.15"}
-{"type": "ss", "server": "202.50.253.54", "port": 19999, "country": "IT", "egress_ip": "80.174.118.51"}
-{"type": "ss", "server": "13.125.95.226", "port": 8443, "country": "KR", "egress_ip": "13.125.95.226"}
-{"type": "hysteria2", "server": "13.125.95.226", "port": 443, "country": "KR", "egress_ip": "13.125.95.226"}
-{"type": "vless", "server": "13.125.95.226", "port": 443, "country": "KR", "egress_ip": "13.125.95.226"}
-{"type": "vless", "server": "91.185.83.44", "port": 443, "country": "NL", "egress_ip": "94.183.206.212"}
+{"type": "vless", "server": "jp-osa.862400.xyz", "port": 443, "country": "JP", "egress_ip": "2400:8905::2000:26ff:fe4d:2ec1"}
+{"type": "vless", "server": "79.141.164.124", "port": 443, "country": "NL", "egress_ip": "79.141.164.81"}
+{"type": "vless", "server": "84.245.18.243", "port": 443, "country": "NL", "egress_ip": "84.245.18.243"}
 {"type": "ssr", "server": "109.104.153.43", "port": 33336, "country": "NL", "egress_ip": "109.104.153.43"}
-{"type": "hysteria2", "server": "54.179.192.163", "port": 443, "country": "SG", "egress_ip": "54.179.192.163"}
-{"type": "vless", "server": "54.179.192.163", "port": 443, "country": "SG", "egress_ip": "54.179.192.163"}
-{"type": "vless", "server": "43.163.112.174", "port": 443, "country": "SG", "egress_ip": "43.163.112.174"}
-{"type": "vless", "server": "83.147.13.74", "port": 8443, "country": "TW", "egress_ip": "2407:cdc0:f004:62aa:202a:47a2:1bd3:d245"}
-{"type": "vless", "server": "201.51.4.89", "port": 443, "country": "US", "egress_ip": "179.254.92.216"}
+{"type": "vless", "server": "79.141.164.124", "port": 443, "country": "NL", "egress_ip": "79.141.164.81"}
+{"type": "vless", "server": "raverno.online", "port": 443, "country": "NL", "egress_ip": "84.245.18.243"}
+{"type": "vless", "server": "connect2.accessgate.link", "port": 2086, "country": "NO", "egress_ip": "193.203.10.95"}
+{"type": "vless", "server": "ap-south.862400.xyz", "port": 443, "country": "SG", "egress_ip": "2400:8901::2000:eeff:fee5:9c5f"}
+{"type": "vless", "server": "154.12.47.231", "port": 8443, "country": "US", "egress_ip": "154.12.47.231"}
+{"type": "vless", "server": "87.232.88.27", "port": 443, "country": "US", "egress_ip": "37.1.210.35"}
