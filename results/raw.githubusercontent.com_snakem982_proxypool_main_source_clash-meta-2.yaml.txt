@@ -1,43 +1,28 @@
 # source: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
-# tested_at: 2026-11-04T00:29:39Z
-# sampled: 55  delay_ok: 40  real_ok: 40  usable_rate: 72.7%
-{"type": "vless", "server": "5.231.45.10", "port": 8444, "country": "DE", "egress_ip": "5.231.59.166"}
-{"type": "vless", "server": "89.169.47.96", "port": 443, "country": "DE", "egress_ip": "185.192.23.147"}
-{"type": "vless", "server": "185.44.64.166", "port": 59397, "country": "DE", "egress_ip": "185.44.64.166"}
-{"type": "vless", "server": "6.bmi.ir.asopardaz.ir", "port": 8443, "country": "FI", "egress_ip": "2.29.97.103"}
-{"type": "vless", "server": "89.144.53.4", "port": 8445, "country": "FI", "egress_ip": "144.31.150.117"}
-{"type": "vless", "server": "13.143.165.126", "port": 443, "country": "DE", "egress_ip": "31.76.101.232"}
-{"type": "vless", "server": "renderer-bridge-2-129.mirra.now", "port": 443, "country": "DE", "egress_ip": "185.192.23.147"}
-{"type": "vless", "server": "5.129.202.80", "port": 443, "country": "EE", "egress_ip": "79.98.37.126"}
-{"type": "vless", "server": "147.45.245.17", "port": 443, "country": "EE", "egress_ip": "79.98.37.94"}
-{"type": "vless", "server": "194.62.97.228", "port": 3389, "country": "ES", "egress_ip": "2a04:3542:8000:1000:3c5b:feff:fe83:4d32"}
-{"type": "vless", "server": "156.252.229.11", "port": 8443, "country": "ES", "egress_ip": "76.164.203.241"}
-{"type": "vmess", "server": "rhHiErkwRf6fHs2H.v.3dns.vip", "port": 443, "country": "HK", "egress_ip": "47.243.167.44"}
+# tested_at: 2026-11-05T00:50:38Z
+# sampled: 48  delay_ok: 28  real_ok: 25  usable_rate: 52.1%
+{"type": "trojan", "server": "sclass-c1.catcat321.com", "port": 20086, "country": "AE", "egress_ip": "2a06:f902:4001:100::8c0a:59b9"}
+{"type": "trojan", "server": "Sclass-00.catcat321.com", "port": 20123, "country": "AE", "egress_ip": "2a06:f902:4001:100::bf1d:aafe"}
+{"type": "trojan", "server": "Sclass-C1.catcat321.com", "port": 20086, "country": "AE", "egress_ip": "2a06:f902:4001:100::62:d818"}
 {"type": "vmess", "server": "47.244.120.197", "port": 23026, "country": "HK", "egress_ip": "47.244.120.197"}
+{"type": "vmess", "server": "47.244.120.197", "port": 36703, "country": "HK", "egress_ip": "47.244.120.197"}
+{"type": "vmess", "server": "8.217.254.88", "port": 443, "country": "HK", "egress_ip": "8.217.254.88"}
 {"type": "vmess", "server": "47.244.120.197", "port": 44867, "country": "HK", "egress_ip": "47.244.120.197"}
-{"type": "vless", "server": "198.16.113.219", "port": 8443, "country": "IR", "egress_ip": "185.211.59.133"}
+{"type": "vless", "server": "tunell2027.crackerbinam.org", "port": 48312, "country": "IR", "egress_ip": "185.211.57.168"}
 {"type": "ss", "server": "202.50.253.90", "port": 19999, "country": "IT", "egress_ip": "80.174.118.87"}
-{"type": "ss", "server": "202.50.253.45", "port": 19999, "country": "IT", "egress_ip": "80.174.118.42"}
-{"type": "ss", "server": "202.50.253.63", "port": 19999, "country": "IT", "egress_ip": "80.174.118.60"}
-{"type": "vless", "server": "13.124.239.162", "port": 443, "country": "KR", "egress_ip": "13.124.239.162"}
-{"type": "trojan", "server": "123.111.169.70", "port": 8443, "country": "KR", "egress_ip": "104.28.157.3"}
-{"type": "hysteria2", "server": "13.124.239.162", "port": 443, "country": "KR", "egress_ip": "13.124.239.162"}
-{"type": "vless", "server": "79.141.164.125", "port": 443, "country": "NL", "egress_ip": "79.141.164.81"}
-{"type": "vless", "server": "79.141.164.83", "port": 443, "country": "NL", "egress_ip": "79.141.164.82"}
-{"type": "vless", "server": "147.45.108.45", "port": 443, "country": "NL", "egress_ip": "89.105.202.7"}
-{"type": "vless", "server": "79.141.164.83", "port": 443, "country": "NL", "egress_ip": "79.141.164.82"}
-{"type": "vless", "server": "79.141.164.125", "port": 443, "country": "NL", "egress_ip": "79.141.164.81"}
-{"type": "vless", "server": "79.141.164.83", "port": 443, "country": "NL", "egress_ip": "79.141.164.82"}
-{"type": "vless", "server": "79.141.164.83", "port": 443, "country": "NL", "egress_ip": "79.141.164.82"}
-{"type": "hysteria2", "server": "13.143.189.144", "port": 4444, "country": "PL", "egress_ip": "13.143.189.104"}
-{"type": "hysteria2", "server": "pl2.nexfile.net", "port": 4444, "country": "PL", "egress_ip": "13.143.189.104"}
-{"type": "hysteria2", "server": "13.143.189.147", "port": 4444, "country": "PL", "egress_ip": "13.143.189.104"}
-{"type": "hysteria2", "server": "13.212.25.48", "port": 443, "country": "SG", "egress_ip": "13.212.25.48"}
-{"type": "ss", "server": "13.212.25.48", "port": 8443, "country": "SG", "egress_ip": "13.212.25.48"}
-{"type": "vless", "server": "rm4.rmastore.ir", "port": 2083, "country": "TR", "egress_ip": "2a01:f900:11:1e7::1"}
-{"type": "trojan", "server": "179.253.239.152", "port": 443, "country": "US", "egress_ip": "104.28.153.110"}
-{"type": "trojan", "server": "179.255.115.161", "port": 443, "country": "US", "egress_ip": "104.28.152.129"}
-{"type": "trojan", "server": "179.253.255.213", "port": 443, "country": "US", "egress_ip": "104.28.152.128"}
-{"type": "trojan", "server": "47.75.104.211", "port": 443, "country": "US", "egress_ip": "104.28.152.187"}
-{"type": "trojan", "server": "104.24.0.4", "port": 443, "country": "US", "egress_ip": "104.28.153.243"}
-{"type": "vless", "server": "swidenafterlanzerotte.space", "port": 443, "country": "US", "egress_ip": "177.202.72.89"}
+{"type": "ss", "server": "202.50.253.36", "port": 19999, "country": "IT", "egress_ip": "80.174.118.33"}
+{"type": "ss", "server": "202.50.253.27", "port": 19999, "country": "IT", "egress_ip": "80.174.118.24"}
+{"type": "ss", "server": "202.50.253.81", "port": 19999, "country": "IT", "egress_ip": "80.174.118.78"}
+{"type": "ss", "server": "202.50.253.72", "port": 19999, "country": "IT", "egress_ip": "80.174.118.69"}
+{"type": "ss", "server": "202.50.253.18", "port": 19999, "country": "IT", "egress_ip": "80.174.118.15"}
+{"type": "ss", "server": "202.50.253.54", "port": 19999, "country": "IT", "egress_ip": "80.174.118.51"}
+{"type": "ss", "server": "13.125.95.226", "port": 8443, "country": "KR", "egress_ip": "13.125.95.226"}
+{"type": "hysteria2", "server": "13.125.95.226", "port": 443, "country": "KR", "egress_ip": "13.125.95.226"}
+{"type": "vless", "server": "13.125.95.226", "port": 443, "country": "KR", "egress_ip": "13.125.95.226"}
+{"type": "vless", "server": "91.185.83.44", "port": 443, "country": "NL", "egress_ip": "94.183.206.212"}
+{"type": "ssr", "server": "109.104.153.43", "port": 33336, "country": "NL", "egress_ip": "109.104.153.43"}
+{"type": "hysteria2", "server": "54.179.192.163", "port": 443, "country": "SG", "egress_ip": "54.179.192.163"}
+{"type": "vless", "server": "54.179.192.163", "port": 443, "country": "SG", "egress_ip": "54.179.192.163"}
+{"type": "vless", "server": "43.163.112.174", "port": 443, "country": "SG", "egress_ip": "43.163.112.174"}
+{"type": "vless", "server": "83.147.13.74", "port": 8443, "country": "TW", "egress_ip": "2407:cdc0:f004:62aa:202a:47a2:1bd3:d245"}
+{"type": "vless", "server": "201.51.4.89", "port": 443, "country": "US", "egress_ip": "179.254.92.216"}
