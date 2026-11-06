@@ -1,6 +1,6 @@
 # source: https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml
-# tested_at: 2026-11-05T10:59:22Z
-# sampled: 26  delay_ok: 22  real_ok: 22  usable_rate: 84.6%
+# tested_at: 2026-11-06T00:49:46Z
+# sampled: 26  delay_ok: 25  real_ok: 25  usable_rate: 96.2%
 {"type": "vless", "server": "47.253.226.114", "port": 443, "country": "US", "egress_ip": "47.253.226.114"}
 {"type": "vless", "server": "169.40.42.35", "port": 443, "country": "US", "egress_ip": "185.195.57.173"}
 {"type": "vless", "server": "169.40.42.168", "port": 443, "country": "US", "egress_ip": "45.144.112.55"}
@@ -12,14 +12,17 @@
 {"type": "vless", "server": "15.204.97.198", "port": 23576, "country": "US", "egress_ip": "2604:2dc0:200:26c6::"}
 {"type": "trojan", "server": "169.197.140.171", "port": 443, "country": "US", "egress_ip": "169.197.140.224"}
 {"type": "vless", "server": "69.48.201.136", "port": 30016, "country": "US", "egress_ip": "69.48.201.136"}
-{"type": "trojan", "server": "167.88.61.20", "port": 443, "country": "US", "egress_ip": "167.88.61.85"}
+{"type": "trojan", "server": "167.88.61.20", "port": 443, "country": "US", "egress_ip": "167.88.61.198"}
+{"type": "trojan", "server": "167.88.61.193", "port": 443, "country": "US", "egress_ip": "167.88.61.193"}
 {"type": "ss", "server": "156.146.38.168", "port": 443, "country": "US", "egress_ip": "156.146.38.168"}
 {"type": "ss", "server": "156.146.38.170", "port": 443, "country": "US", "egress_ip": "156.146.38.170"}
 {"type": "ss", "server": "141.98.101.181", "port": 443, "country": "GB", "egress_ip": "141.98.101.181"}
 {"type": "ss", "server": "82.38.31.180", "port": 8080, "country": "NL", "egress_ip": "193.29.139.147"}
 {"type": "ss", "server": "82.38.31.62", "port": 8080, "country": "NL", "egress_ip": "193.29.139.202"}
 {"type": "ss", "server": "202.50.253.63", "port": 19999, "country": "IT", "egress_ip": "80.174.118.60"}
+{"type": "vless", "server": "152.69.195.67", "port": 47878, "country": "JP", "egress_ip": "2603:c023:4:8501:4c26:5bf9:2102:f8ad"}
 {"type": "ss", "server": "202.50.253.81", "port": 19999, "country": "IT", "egress_ip": "80.174.118.78"}
+{"type": "ss", "server": "193.29.139.212", "port": 8080, "country": "NL", "egress_ip": "193.29.139.212"}
 {"type": "ss", "server": "82.38.31.155", "port": 8080, "country": "NL", "egress_ip": "193.29.139.236"}
 {"type": "ss", "server": "151.241.19.29", "port": 19999, "country": "NL", "egress_ip": "151.241.19.29"}
 {"type": "ss", "server": "167.17.71.167", "port": 19999, "country": "ES", "egress_ip": "167.17.71.167"}
