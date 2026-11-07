@@ -1,0 +1,13 @@
+# source: https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml
+# tested_at: 2026-11-07T00:02:39Z
+# sampled: 11  delay_ok: 10  real_ok: 10  usable_rate: 90.9%
+{"type": "ss", "server": "202.50.253.18", "port": 19999, "country": "IT", "egress_ip": "80.174.118.15"}
+{"type": "ss", "server": "202.50.253.81", "port": 19999, "country": "IT", "egress_ip": "80.174.118.78"}
+{"type": "vmess", "server": "107.175.76.215", "port": 1288, "country": "US", "egress_ip": "107.175.76.215"}
+{"type": "vless", "server": "79.182.39.110", "port": 443, "country": "DE", "egress_ip": "45.157.235.164"}
+{"type": "vless", "server": "15b171g.nl7.h1clayd.click", "port": 443, "country": "NL", "egress_ip": "164.37.224.109"}
+{"type": "vless", "server": "pl3.japancase.site", "port": 443, "country": "PL", "egress_ip": "104.28.193.183"}
+{"type": "ss", "server": "202.50.253.27", "port": 19999, "country": "IT", "egress_ip": "80.174.118.24"}
+{"type": "vless", "server": "at1.japancase.site", "port": 443, "country": "AT", "egress_ip": "104.28.239.43"}
+{"type": "vless", "server": "198.16.113.222", "port": 8443, "country": "IR", "egress_ip": "185.211.59.32"}
+{"type": "vless", "server": "ru1.aoyou.stream", "port": 443, "country": "RU", "egress_ip": "185.22.152.111"}

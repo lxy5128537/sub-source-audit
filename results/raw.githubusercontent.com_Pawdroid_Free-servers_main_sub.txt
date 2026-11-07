@@ -1,0 +1,9 @@
+# source: https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+# tested_at: 2026-11-06T23:58:57Z
+# sampled: 17  delay_ok: 6  real_ok: 6  usable_rate: 35.3%
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.175:443?security=tls&sni=blog.browseseniorrolesandenhanceyourcareertoday.com&type=tcp#%E7%91%9E%E5%85%B8+V2CROSS.COM
+ss://YWVzLTI1Ni1nY206QmVhVWY5YzBBRVdINDBQdQ==@154.36.158.197:8388#%E7%BE%8E%E5%9B%BD+V2CROSS.COM
+hysteria2://f4b80b26-b6d4-49a6-a460-f50efb7a457c@186.246.18.62:443?security=tls&sni=hy.cardlist24.shop#%E5%B7%B4%E8%A5%BF+V2CROSS.COM
+vless://db80088c-32a1-4cb8-a907-0f3cb7844152@178.22.31.72:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=at1.japancase.site&fp=firefox&pbk=zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg&sid=41ae8e266bc3346f&type=tcp&headerType=none#%E7%91%9E%E5%A3%AB+V2CROSS.COM
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.27:19999#%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.99:19999#%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM

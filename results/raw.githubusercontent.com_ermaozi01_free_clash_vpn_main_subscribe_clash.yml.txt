@@ -1,18 +1,17 @@
 # source: https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml
-# tested_at: 2026-11-06T00:53:48Z
-# sampled: 18  delay_ok: 15  real_ok: 15  usable_rate: 83.3%
-{"type": "hysteria", "server": "137.175.82.43", "port": 443, "country": "US", "egress_ip": "137.175.82.40"}
+# tested_at: 2026-11-07T00:03:07Z
+# sampled: 19  delay_ok: 14  real_ok: 14  usable_rate: 73.7%
 {"type": "hysteria", "server": "62.210.28.175", "port": 24667, "country": "FR", "egress_ip": "62.210.124.132"}
-{"type": "hysteria", "server": "5.83.129.90", "port": 54177, "country": "NL", "egress_ip": "5.83.129.90"}
-{"type": "hysteria", "server": "137.175.82.44", "port": 443, "country": "US", "egress_ip": "137.175.82.40"}
 {"type": "hysteria", "server": "198.200.57.142", "port": 22335, "country": "US", "egress_ip": "198.200.57.141"}
 {"type": "hysteria", "server": "163.172.117.163", "port": 36699, "country": "FR", "egress_ip": "195.154.200.13"}
 {"type": "hysteria2", "server": "starlink-ft.251313.xyz", "port": 443, "country": "US", "egress_ip": "2603:c024:c020:4e00:0:c2b9:61c:c596"}
 {"type": "ss", "server": "202.50.253.27", "port": 19999, "country": "IT", "egress_ip": "80.174.118.24"}
+{"type": "ss", "server": "202.50.253.36", "port": 19999, "country": "IT", "egress_ip": "80.174.118.33"}
 {"type": "ss", "server": "202.50.253.90", "port": 19999, "country": "IT", "egress_ip": "80.174.118.87"}
 {"type": "ss", "server": "202.50.253.63", "port": 19999, "country": "IT", "egress_ip": "80.174.118.60"}
 {"type": "ss", "server": "202.50.253.18", "port": 19999, "country": "IT", "egress_ip": "80.174.118.15"}
 {"type": "ss", "server": "202.50.253.54", "port": 19999, "country": "IT", "egress_ip": "80.174.118.51"}
 {"type": "ss", "server": "202.50.253.45", "port": 19999, "country": "IT", "egress_ip": "80.174.118.42"}
+{"type": "ss", "server": "202.50.253.99", "port": 19999, "country": "IT", "egress_ip": "80.174.118.96"}
 {"type": "ss", "server": "202.50.253.81", "port": 19999, "country": "IT", "egress_ip": "80.174.118.78"}
 {"type": "ss", "server": "202.50.253.72", "port": 19999, "country": "IT", "egress_ip": "80.174.118.69"}

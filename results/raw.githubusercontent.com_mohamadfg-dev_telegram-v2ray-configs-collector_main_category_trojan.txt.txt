@@ -1,0 +1,9 @@
+# source: https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/main/category/trojan.txt
+# tested_at: 2026-11-07T00:00:33Z
+# sampled: 13  delay_ok: 6  real_ok: 6  usable_rate: 46.2%
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.106.186.46:443?security=tls&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&sni=cdn.findlocaljobnetworkandbuildcommunityconnections.com#🇺🇸 US | 216.106.186.46
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.237:443?security=tls&headerType=none&type=tcp&sni=cdn.explorecreativejobsandenhanceyourcareerportfolio.com#🇺🇸 US | 170.101.101.237
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@70.34.252.255:443?allowInsecure=0&sni=browseexecutivejobopeningsandenhanceleadershipcareer.com#🇵🇱 PL | 70.34.252.255
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@70.34.207.14:443?sni=searchhealthcarejobsandbuildmedicalcareerpathway.com&peer=searchhealthcarejobsandbuildmedicalcareerpathway.com&security=tls#🇸🇪 SE | 70.34.207.14
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.40:443?security=tls&headerType=none&type=tcp&allowInsecure=0&sni=cdn.discovergreatjobsandadvanceyourcareer.com#🇪🇸 ES | 66.163.118.40
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.179.108.225:443?security=tls&headerType=none&type=tcp&sni=discoverparttimepositionsandsupplementyourincomeguide.com#🇯🇵 JP | 167.179.108.225

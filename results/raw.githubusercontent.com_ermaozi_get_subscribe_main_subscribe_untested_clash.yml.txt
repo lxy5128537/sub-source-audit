@@ -1,33 +1,23 @@
 # source: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/untested/clash.yml
-# tested_at: 2026-11-06T00:53:19Z
-# sampled: 57  delay_ok: 30  real_ok: 30  usable_rate: 52.6%
-{"type": "hysteria", "server": "137.175.82.43", "port": 443, "country": "US", "egress_ip": "137.175.82.40"}
+# tested_at: 2026-11-07T00:02:13Z
+# sampled: 56  delay_ok: 20  real_ok: 20  usable_rate: 35.7%
 {"type": "hysteria", "server": "62.210.28.175", "port": 24667, "country": "FR", "egress_ip": "62.210.124.132"}
 {"type": "hysteria", "server": "5.83.129.90", "port": 54177, "country": "NL", "egress_ip": "5.83.129.90"}
-{"type": "hysteria", "server": "137.175.82.44", "port": 443, "country": "US", "egress_ip": "137.175.82.40"}
 {"type": "hysteria", "server": "198.200.57.142", "port": 22335, "country": "US", "egress_ip": "198.200.57.141"}
 {"type": "hysteria", "server": "163.172.117.163", "port": 36699, "country": "FR", "egress_ip": "195.154.200.13"}
 {"type": "hysteria2", "server": "starlink-ft.251313.xyz", "port": 443, "country": "US", "egress_ip": "2603:c024:c020:4e00:0:c2b9:61c:c596"}
+{"type": "hysteria2", "server": "13.143.189.80", "port": 4444, "country": "PL", "egress_ip": "13.143.189.96"}
 {"type": "hysteria2", "server": "fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com", "port": 443, "country": "US", "egress_ip": "2610:150:c001:4:8d4:77ac:d29a:d9f5"}
-{"type": "hysteria2", "server": "b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com", "port": 443, "country": "US", "egress_ip": "2610:150:c001:4:880:37cf:f4e6:ef5c"}
-{"type": "hysteria2", "server": "ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com", "port": 443, "country": "US", "egress_ip": "2610:150:c001:4:895:acd8:6cd3:4589"}
-{"type": "hysteria2", "server": "807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com", "port": 443, "country": "US", "egress_ip": "2610:150:c001:4:8aa:8c36:e2dc:463c"}
 {"type": "hysteria2", "server": "0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com", "port": 443, "country": "US", "egress_ip": "2610:150:c001:4:810:e04a:a7d9:68e6"}
-{"type": "hysteria2", "server": "204.152.221.177", "port": 443, "country": "US", "egress_ip": "204.152.221.177"}
-{"type": "hysteria2", "server": "13.143.189.105", "port": 4444, "country": "PL", "egress_ip": "13.143.189.104"}
 {"type": "hysteria2", "server": "13.143.189.106", "port": 4444, "country": "PL", "egress_ip": "13.143.189.104"}
 {"type": "hysteria2", "server": "13.143.189.142", "port": 4444, "country": "PL", "egress_ip": "13.143.189.96"}
 {"type": "hysteria2", "server": "13.143.189.147", "port": 4444, "country": "PL", "egress_ip": "13.143.189.104"}
 {"type": "hysteria2", "server": "13.143.189.149", "port": 4444, "country": "PL", "egress_ip": "13.143.189.104"}
-{"type": "hysteria2", "server": "13.143.189.80", "port": 4444, "country": "PL", "egress_ip": "13.143.189.96"}
 {"type": "hysteria2", "server": "13.143.189.96", "port": 4444, "country": "PL", "egress_ip": "13.143.189.96"}
 {"type": "hysteria2", "server": "179.253.82.33", "port": 4444, "country": "FI", "egress_ip": "144.31.109.38"}
 {"type": "hysteria2", "server": "179.253.82.47", "port": 4444, "country": "FI", "egress_ip": "144.31.109.38"}
 {"type": "hysteria2", "server": "6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com", "port": 443, "country": "US", "egress_ip": "2610:150:c001:4:8d8:c747:dd:e918"}
 {"type": "hysteria2", "server": "152.32.254.68", "port": 5010, "country": "HK", "egress_ip": "152.32.254.68"}
-{"type": "hysteria2", "server": "45.91.237.78", "port": 443, "country": "NL", "egress_ip": "2a03:6f02::1:7489"}
-{"type": "hysteria2", "server": "142.11.207.17", "port": 443, "country": "US", "egress_ip": "142.11.207.17"}
+{"type": "hysteria2", "server": "45.91.237.78", "port": 443, "country": "NL", "egress_ip": "45.91.237.78"}
 {"type": "hysteria2", "server": "130.49.161.70", "port": 443, "country": "NL", "egress_ip": "130.49.161.70"}
 {"type": "hysteria2", "server": "179.61.138.145", "port": 36264, "country": "DE", "egress_ip": "179.61.138.145"}
-{"type": "hysteria2", "server": "13.125.233.159", "port": 443, "country": "KR", "egress_ip": "13.125.233.159"}
-{"type": "hysteria2", "server": "13.212.85.246", "port": 443, "country": "SG", "egress_ip": "13.212.85.246"}
